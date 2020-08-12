@@ -1,0 +1,145 @@
+body {
+    font-family:"helvetica";
+    background-color:#fff;
+    margin:0px;
+    color:#000000;
+    /*color:#008cba;*/
+    text-align:center;
+    overflow-x: hidden;
+}
+
+
+a.button {
+    display: inline-block;
+    background: #9085a1;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#ffffff;
+    cursor:pointer;
+    margin-top:5px;
+}
+
+a.share {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+a.button.yes {
+    background:#0000ff;
+}
+
+a.button.no {
+    background:#ff0000;
+}
+
+a.button:hover {
+    opacity: .8;
+}
+
+a.icon:hover {
+    opacity:.8;
+}
+
+a.share.facebook {
+    background: #3b5998;
+}
+
+a.share.twitter {
+    background: #37c5d6;
+}
+
+a.share:hover {
+    opacity: .8;
+}
+
+.yesdiv {
+    display:none;
+    opacity:0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+    margin-bottom:20px;
+}
+
+.nodiv {
+    display:none;
+    opacity:0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+    margin-bottom:20px;
+}
+
+.sharediv {
+    display:none;
+    opacity:0;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.question {
+    display:block;
+}
+
+.buttons {
+    display:block;
+}
+
+@media screen and (min-width: 500px) {
+
+    body {
+        width:800px;
+        margin:60px auto;
+        max-width:80%;
+    }
+
+    a.button {
+        width: 190px;
+        margin: 5px 5px;
+        border-radius: 5px;
+        cursor:pointer;
+        border-radius:5px;
+    }
+
+    a.share {
+        width: 190px;
+        margin: 0px 5px;
+        border-radius: 5px;
+        cursor:pointer;
+        border-radius:5px;
+    }
+
+    a.button.no {
+        width:400px;
+    }
+
+    a.button.yes {
+        width:400px;
+    }
+
+    h1 {
+        font-size:2.5em;
+    }
+
+    .yesdiv {
+        margin-bottom:20px;
+    }
+
+    .nodiv {
+        margin-bottom:35px;
+    }
